@@ -130,11 +130,15 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IndexWindow.cpp" />
+    <ClCompile Include="ControlManager.cpp" />
+    <ClCompile Include="IndexPage.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="WPF_CPP.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IndexWindow.h" />
+    <ClInclude Include="ControlManager.h" />
+    <ClInclude Include="IndexPage.h" />
+    <ClInclude Include="MainWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

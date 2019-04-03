@@ -4,10 +4,12 @@ using namespace System;
 using namespace System::Windows;
 using namespace System::Windows::Controls;
 
-public ref class IndexWindow : public Window
+public ref class MainWindow : public Window
 {
 public:
-    IndexWindow();
+    MainWindow();
 
-    void InitStyle();
+private:
+	void InitializeComponent();
+    void InitializeStyle();
 };
