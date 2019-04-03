@@ -3,14 +3,14 @@
 
 MainWindow::MainWindow()
 {
-	InitializeComponent();
-	InitializeStyle();
+    InitializeComponent();
+    InitializeStyle();
 }
 
 void MainWindow::InitializeComponent()
 {
-	IndexPage^ indexPage = gcnew IndexPage();
-	this->Content = indexPage;
+    IndexPage^ indexPage = gcnew IndexPage();
+    this->Content = indexPage;
 }
 
 void MainWindow::InitializeStyle()
@@ -19,5 +19,5 @@ void MainWindow::InitializeStyle()
     Width = 500;
     Height = 300;
 
-	this->WindowStartupLocation = Windows::WindowStartupLocation::CenterScreen;
+    this->WindowStartupLocation = Windows::WindowStartupLocation::CenterScreen;
 }

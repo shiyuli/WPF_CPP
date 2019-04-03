@@ -6,16 +6,16 @@ using namespace System::Windows::Controls;
 ref class IndexPage : public Grid
 {
 public:
-	IndexPage();
+    IndexPage();
 
 private:
-	void InitializeComponent();
-	void InitializeStyle();
+    void InitializeComponent();
+    void InitializeStyle();
 
-	void btnSubmit_Click(Object^ sender, RoutedEventArgs^ e);
+    void btnSubmit_Click(Object^ sender, RoutedEventArgs^ e);
 
 private:
-	Label^ lblName_;
-	TextBox^ txtName_;
-	Button^ btnSubmit_;
+    Label^ lblName_;
+    TextBox^ txtName_;
+    Button^ btnSubmit_;
 };

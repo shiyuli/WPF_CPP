@@ -10,6 +10,6 @@ public:
     MainWindow();
 
 private:
-	void InitializeComponent();
+    void InitializeComponent();
     void InitializeStyle();
 };
